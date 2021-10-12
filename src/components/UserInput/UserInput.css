@@ -6,6 +6,10 @@
   border-radius: 20px;
 }
 
+.form[disabled] {
+  background-color: rgb(97, 97, 97);
+}
+
 .form-field {
   display: flex;
   flex-direction: column;
@@ -27,4 +31,9 @@
   padding: 10px 20px;
   border: 0;
   font-size: 1em;
+}
+
+.btn[disabled] {
+  background-color: darkgray;
+  color: black;
 }
